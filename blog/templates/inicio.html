@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Página de Inicio</h2>
+<ul>
+    <li><a href="{% url 'crear_autor' %}">Crear Autor</a></li>
+    <li><a href="{% url 'crear_categoria' %}">Crear Categoría</a></li>
+    <li><a href="{% url 'crear_post' %}">Crear Post</a></li>
+    <li><a href="{% url 'buscar_post' %}">Buscar Post</a></li>
+</ul>
+{% endblock %}
